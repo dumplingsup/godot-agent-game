@@ -1,0 +1,13 @@
+.godot/
+builds/
+.tools/
+
+# Credentials and local output
+.env
+.env.*
+!.env.example
+!.env.sample
+auth.json
+*.pem
+*.key
+*.log

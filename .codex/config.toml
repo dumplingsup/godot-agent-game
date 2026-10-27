@@ -1,0 +1,10 @@
+# Project-scoped Codex MCP configuration.
+# This is intentionally local to the trusted Godot project.
+
+[mcp_servers.godot]
+command = "D:/node/node.exe"
+args = ["C:/Users/42173/Documents/ChatGPT/godot_project/.tools/godot-mcp-master/server/build/index.js"]
+cwd = "C:/Users/42173/Documents/ChatGPT/godot_project"
+
+[mcp_servers.godot.env]
+GODOT_MCP_PORT = "6505"
